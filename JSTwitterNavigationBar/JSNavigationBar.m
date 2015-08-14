@@ -49,6 +49,7 @@
   float alpha = MIN(1.5, MAX(0, 1 - ((-yOffset/64)*1)));
   self.blurredEffectView.alpha = 1;
   self.titleLabel.alpha = alpha-alphaLabelOffset;
+  self.blurredEffectView.alpha = alpha;
   
   if (self.subtitleLabel) {
     self.titleLabel.frame = CGRectMake(0, MAX(0, -yOffset)+5, self.titleLabel.frame.size.width, self.titleLabel.frame.size.height);
@@ -123,12 +124,6 @@
     [self.blurredEffectView setFrame:CGRectMake(-50, -50, self.backgroundImageView.frame.size.width+100, self.backgroundImageView.frame.size.height+100)];
     self.blurredEffectView.alpha = 1;
     [self.backgroundImageView addSubview:self.blurredEffectView];
-  }
-}
-
-- (void)setBlurEffectOpacity:(CGFloat)blurEffectOpacity {
-  if (blurEffectOpacity <= 1 && blurEffectOpacity >= 0) {
-    self.blurredEffectView.alpha = blurEffectOpacity;
   }
 }
 

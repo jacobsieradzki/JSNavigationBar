@@ -36,7 +36,6 @@
  @property (nonatomic, assign) bool whiteStatusBar;
  @property (nonatomic, assign) bool hideNavBarBackground;
  @property (nonatomic, strong) UIImage *backgroundImage;
- @property (nonatomic, assign) CGFloat blurEffectOpacity;
  ```
  
 # License

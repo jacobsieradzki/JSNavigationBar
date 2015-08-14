@@ -69,10 +69,6 @@
  The image in the backgorund of the navigation bar. The background image will not appear if the hideNavBarBackground property is set to YES (transparent).
  */
 @property (nonatomic, strong) UIImage *backgroundImage;
-/**
- The opacity of the blur effect on the background image.
- */
-@property (nonatomic, assign) CGFloat blurEffectOpacity;
 @end
 
 @interface JSNavBarStatusBarController : NSObject
