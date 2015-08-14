@@ -1,6 +1,8 @@
 # JSNavigationBar
 'JSNavigationBar' is an implementation of Twitter's navigation bar from the profile tab in their iOS app. I realise this library is far from perfect so any pull requests will be welcomed.
 
+![Demo](https://github.com/jacobsieradzki/JSNavigationBar/blob/master/Demo.gif)
+
 # Implementation
  
  To put this into your view controller, there are 3 steps:
