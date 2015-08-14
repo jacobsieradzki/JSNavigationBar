@@ -23,7 +23,7 @@
  ```
  (Note that if you are not using a UITableViewController then you will need to put the UITableViewDelegate into your view controller)
  
- # Personalization
+# Personalization
  
  During any point (most likely after the init method) you can edit optional parameters for personalization:
  
@@ -37,7 +37,7 @@
  @property (nonatomic, assign) CGFloat blurEffectOpacity;
  ```
  
- ## License
+# License
 
 You can use this freely in your projects as you wish but please email me at some point at jake@gradler.co just so I can see how you have used it, thanks.
 
